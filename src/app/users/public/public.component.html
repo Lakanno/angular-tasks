@@ -1,0 +1,13 @@
+<div>
+    <h2 [ngClass]="isValid ? 'valid' : 'isNotValid'"> Am I Valid?</h2>
+    <h1 [ngStyle]="{color: this.isValid ? 'green' : 'red'}" >I Am Laka </h1>
+    <button (click)="onSwitchValid()">Switch</button>
+
+    <p 
+    appCopy
+    >
+        Hello World
+    </p>
+
+    <h1> {{ 29 | age}} </h1>
+</div>

@@ -1,0 +1,6 @@
+<div class="">
+    <h2> {{ userName }} </h2>
+    <h2> {{ user.name }}  / {{ user.age }}</h2>
+    <button (click)="changeNameEvent.emit('Lika')">Change User</button>
+    <button (click)="changeAgeEvent.emit(26)">Change Age</button>
+</div>

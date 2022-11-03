@@ -1,0 +1,8 @@
+
+<div>
+    <p>parent works!</p>
+        <hr>
+    <app-users [userName]="'LAKA'" [user]="user" (changeNameEvent)="changeName($event)"
+    (changeAgeEvent)="changeAge($event)"></app-users>
+    <app-public></app-public>
+</div>
